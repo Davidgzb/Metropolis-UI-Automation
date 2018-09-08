@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="914a10ae-dfe3-4428-8e07-bfedeb414e89" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/SearchResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MetropolisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MetropolisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MetropolisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MetropolisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/HomePage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,8 +24,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="305">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -29,8 +33,11 @@
       <file leaf-file-name="MetropolisTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MetropolisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="375">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,8 +45,8 @@
       <file leaf-file-name="DriverConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DriverConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="465">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,16 +57,32 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+            <state relative-caret-position="185">
+              <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
                 <element signature="e#616#617#0" expanded="true" />
                 <element signature="e#652#653#0" expanded="true" />
                 <element signature="e#823#824#0" expanded="true" />
                 <element signature="e#858#859#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchResultPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/SearchResultPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,10 +103,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/DriverConfiguration.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/PageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DriverConfiguration.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/SearchResultPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/MetropolisTest.java" />
       </list>
     </option>
@@ -147,6 +171,11 @@
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -245,16 +274,44 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 00h 15m 14s.xml">
+    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 00h 38m 42s.xml">
+      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 00h 41m 10s.xml">
+      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 00h 47m 53s.xml">
+      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 00h 48m 27s.xml">
+      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 00h 49m 46s.xml">
+      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 00h 52m 29s.xml">
+      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 00h 52m 52s.xml">
+      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 01h 08m 33s.xml">
+      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 01h 09m 35s.xml">
+      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 01h 10m 11s.xml">
       <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1001" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32901832" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -287,13 +344,6 @@
     <entry file="file://$PROJECT_DIR$/Metropolis-UI-Automation.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/PageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -304,10 +354,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DriverConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="465">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -316,12 +373,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        <state relative-caret-position="185">
+          <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
             <element signature="e#616#617#0" expanded="true" />
             <element signature="e#652#653#0" expanded="true" />
             <element signature="e#823#824#0" expanded="true" />
@@ -330,10 +387,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/SearchResultPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MetropolisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="375">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
