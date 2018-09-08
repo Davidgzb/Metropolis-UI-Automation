@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends PageObject {
 
-
     @FindBy(xpath = "//nav/div[11]")
     private WebElement searchButton;
 
