@@ -13,6 +13,7 @@ public class DriverConfiguration {
     @BeforeSuite
     public static void setUp(){
 
+        System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir") + "/src/geckodriver");
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 
