@@ -1,6 +1,5 @@
-import Pages.HomePage;
-import Pages.ProductDetailPage;
-import Pages.SearchResultPage;
+import Pages.*;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class MetropolisTest extends DriverConfiguration {
@@ -9,28 +8,45 @@ public class MetropolisTest extends DriverConfiguration {
     @Test
     public void AssertItemInCart() throws InterruptedException {
 
-        String searchTerm = "adidas";
+        String searchTerm = "Adidas";
         HomePage homePage = new HomePage(driver);
         SearchResultPage searchResultPage = new SearchResultPage(driver);
         ProductDetailPage productDetailPage = new ProductDetailPage(driver);
+        RegistrationPage registrationPage = new RegistrationPage(driver);
 
+
+        // 1. Go to zatro.es
         driver.get("https://www.zatro.es/");
+
+        // 2. Click the Search Button
         homePage.clickOnSearch();
+
+        // 3. Search for Adidas
         homePage.enterSearch(searchTerm);
         homePage.submitSearch();
 
+        // 4. Click the second item
         String itemName = searchResultPage.getItemName();
-        System.out.println(itemName);
         searchResultPage.clickOnSecondItem();
 
+        // 5. Select the second available Shoe Size
         productDetailPage.openDropdown();
         String shoeSize = productDetailPage.getShoeSize();
-        System.out.println(shoeSize);
         productDetailPage.selectSecondSize();
+
+        // 6. Add it to Shopping Cart
         productDetailPage.addToCart();
+
+        // 7. Click tramitar Pedido
         productDetailPage.placeOrder();
 
-        //Thread.sleep(10000);
+        // 8. Then click on Mi Cesta
+        registrationPage.clickShoppingBasket();
+
+        // 9. Assert that the item on the basket is the same as you clicked
+        Assert.assertEquals(searchTerm, registrationPage.getFirstItemInCartBrand());
+        Assert.assertEquals(itemName, registrationPage.getFirstItemInCartModel());
+        Assert.assertEquals(shoeSize, registrationPage.getFirstItemInCartSize());
 
 
     }

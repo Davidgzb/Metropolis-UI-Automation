@@ -7,16 +7,16 @@ import org.openqa.selenium.support.FindBy;
 public class RegistrationPage extends PageObject{
 
 
-    @FindBy(xpath = "asdasd")
+    @FindBy(className = "cesta-btn")
     private WebElement shoppingBasketButton;
 
-    @FindBy(xpath = "asdasda")
-    private WebElement firstItemInCartModel;
-
-    @FindBy(xpath = "asdasdsa")
+    @FindBy(xpath = "//div[contains(@class, 'marca') and contains(@class, 'ui-text-2')]")
     private WebElement firstItemInCartBrand;
 
-    @FindBy(xpath = "asdasd")
+    @FindBy(xpath = "//span[contains(@class, 'titulo') and contains(@class, 'ui-text-2')]")
+    private WebElement firstItemInCartModel;
+
+    @FindBy(xpath = "//div[contains(@class, 'talla') and contains(@class, 'ui-text-2')]")
     private WebElement firstItemInCartSize;
 
     public RegistrationPage(WebDriver driver){
@@ -39,6 +39,8 @@ public class RegistrationPage extends PageObject{
 
     public String getFirstItemInCartSize(){
         String itemSize = firstItemInCartSize.getText();
+        itemSize = itemSize.substring(6);
+
         return itemSize;
     }
 }
