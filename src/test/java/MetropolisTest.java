@@ -6,9 +6,10 @@ public class MetropolisTest extends DriverConfiguration {
 
 
     @Test
-    public void AssertItemInCart() throws InterruptedException {
+    public void AssertItemInCart() {
 
         String searchTerm = "Adidas";
+        String baseUrl = "https://www.zatro.es/";
         HomePage homePage = new HomePage(driver);
         SearchResultPage searchResultPage = new SearchResultPage(driver);
         ProductDetailPage productDetailPage = new ProductDetailPage(driver);
@@ -16,7 +17,7 @@ public class MetropolisTest extends DriverConfiguration {
 
 
         // 1. Go to zatro.es
-        driver.get("https://www.zatro.es/");
+        driver.get(baseUrl);
 
         // 2. Click the Search Button
         homePage.clickOnSearch();
