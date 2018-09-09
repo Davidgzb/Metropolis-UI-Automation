@@ -24,6 +24,8 @@ public class MetropolisTest extends DriverConfiguration {
         searchResultPage.clickOnSecondItem();
 
         productDetailPage.openDropdown();
+        String shoeSize = productDetailPage.getShoeSize();
+        System.out.println(shoeSize);
         productDetailPage.selectSecondSize();
         productDetailPage.addToCart();
         productDetailPage.placeOrder();

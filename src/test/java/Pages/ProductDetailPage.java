@@ -26,6 +26,11 @@ public class ProductDetailPage extends PageObject {
         sizeDropdown.click();
     }
 
+    public String getShoeSize(){
+        String shoeSize = secondItemDropdown.getText();
+        return shoeSize;
+    }
+
     public void selectSecondSize(){
         secondItemDropdown.click();
     }
