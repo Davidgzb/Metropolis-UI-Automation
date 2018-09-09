@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="914a10ae-dfe3-4428-8e07-bfedeb414e89" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MetropolisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MetropolisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/RegistrationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/MetropolisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MetropolisTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/RegistrationPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,15 +15,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MetropolisTest.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MetropolisTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MetropolisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+            <state relative-caret-position="300">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -65,17 +71,19 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="97" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1001" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,21 +109,10 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MetropolisUIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Metropolis-UI-Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -220,15 +217,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 02h 32m 05s.xml">
-      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 02h 32m 43s.xml">
-      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 02h 33m 29s.xml">
-      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 02h 36m 12s.xml">
       <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
     </history-entry>
@@ -250,37 +238,45 @@
     <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 02h 50m 23s.xml">
       <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 11h 47m 09s.xml">
+      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 12h 21m 06s.xml">
+      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 12h 21m 29s.xml">
+      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1001" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="1002" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32901832" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32901832" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32901832" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32901832" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286638" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32901832" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -292,23 +288,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Metropolis-UI-Automation.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/PageObject.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MetropolisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DriverConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="300">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -317,8 +300,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="345">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MetropolisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="85" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MetropolisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/PageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DriverConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -326,13 +350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -340,17 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -358,39 +364,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="95" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="e#2829#2830#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/NavigationBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="101" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/NavigationBar.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/RegistrationPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="88" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -398,19 +379,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MetropolisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MetropolisTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
