@@ -37,6 +37,6 @@ How to run the Tests
 
 - You may need to right click on the Pom file and select Maven -> Download Sources and Documentation
 
-- Open the MetropolisTest Java Class in src > test > java
+- Open the testMetropolis Java Class in src > test > java
 
-- Run the MetropolisTest Class with TestNG
+- Run the testMetropolis Class with TestNG

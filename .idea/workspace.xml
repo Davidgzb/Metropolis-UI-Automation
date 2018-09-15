@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="914a10ae-dfe3-4428-8e07-bfedeb414e89" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ResponseTextFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTests/testVimeoCategoryApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MetropolisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MetropolisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Instructions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MetropolisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testMetropolis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MetropolisTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MetropolisTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MetropolisTest.java">
+      <file leaf-file-name="testMetropolis.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testMetropolis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="71">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,14 +34,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DriverConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DriverConfiguration.java">
+      <file leaf-file-name="testVimeoCategoryApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ApiTests/testVimeoCategoryApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="270">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -57,13 +72,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/Pages/PageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/DriverConfiguration.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/SearchResultPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/ProductDetailPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/RegistrationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/NavigationBar.java" />
         <option value="$PROJECT_DIR$/src/test/java/MetropolisTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testMetropolis.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ApiTests/testVimeoCategoryApi.java" />
       </list>
     </option>
   </component>
@@ -74,8 +91,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="53" />
     <option name="width" value="1680" />
     <option name="height" value="1002" />
   </component>
@@ -84,6 +101,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,19 +128,29 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MetropolisUIAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Metropolis-UI-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -138,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.testVimeoCategoryApi">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -157,29 +186,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="MetropolisTest.AssertItemInCart" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Metropolis-UI-Automation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MetropolisTest" />
-      <option name="METHOD_NAME" value="AssertItemInCart" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -203,9 +209,122 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="testMetropolis" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Metropolis-UI-Automation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testMetropolis" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="testMetropolis.AssertItemInCart" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Metropolis-UI-Automation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testMetropolis" />
+      <option name="METHOD_NAME" value="AssertItemInCart" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="testVimeoCategoryApi" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Metropolis-UI-Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="ApiTests" />
+      <option name="MAIN_CLASS_NAME" value="ApiTests.testVimeoCategoryApi" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="testVimeoCategoryApi.testJsonStructure" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Metropolis-UI-Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="ApiTests" />
+      <option name="MAIN_CLASS_NAME" value="ApiTests.testVimeoCategoryApi" />
+      <option name="METHOD_NAME" value="testJsonStructure" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.testMetropolis.AssertItemInCart" />
+      <item itemvalue="TestNG.testVimeoCategoryApi.testJsonStructure" />
+      <item itemvalue="TestNG.testMetropolis" />
+      <item itemvalue="TestNG.testVimeoCategoryApi" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MetropolisTest.AssertItemInCart" />
+        <item itemvalue="TestNG.testVimeoCategoryApi" />
+        <item itemvalue="TestNG.testMetropolis" />
+        <item itemvalue="TestNG.testVimeoCategoryApi.testJsonStructure" />
+        <item itemvalue="TestNG.testMetropolis.AssertItemInCart" />
       </list>
     </recent_temporary>
   </component>
@@ -223,43 +342,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 02h 36m 12s.xml">
-      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 02h 37m 00s.xml">
-      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 02h 37m 55s.xml">
-      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 02h 38m 20s.xml">
-      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 02h 46m 00s.xml">
-      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 02h 48m 21s.xml">
-      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 02h 50m 23s.xml">
-      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 11h 47m 09s.xml">
-      <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 12h 21m 06s.xml">
       <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
     </history-entry>
     <history-entry file="MetropolisTest_AssertItemInCart - 2018.09.09 at 12h 21m 29s.xml">
       <configuration name="MetropolisTest.AssertItemInCart" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="testMetropolis_AssertItemInCart - 2018.09.12 at 11h 25m 12s.xml">
+      <configuration name="testMetropolis.AssertItemInCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testVimeoCategoryApi_testJsonStructure - 2018.09.12 at 11h 34m 44s.xml">
+      <configuration name="testVimeoCategoryApi.testJsonStructure" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testVimeoCategoryApi_testJsonStructure - 2018.09.12 at 11h 36m 50s.xml">
+      <configuration name="testVimeoCategoryApi.testJsonStructure" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testVimeoCategoryApi_testJsonStructure - 2018.09.12 at 11h 37m 31s.xml">
+      <configuration name="testVimeoCategoryApi.testJsonStructure" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testMetropolis - 2018.09.12 at 13h 01m 01s.xml">
+      <configuration name="testMetropolis" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testMetropolis - 2018.09.12 at 15h 26m 52s.xml">
+      <configuration name="testMetropolis" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testMetropolis - 2018.09.12 at 15h 28m 34s.xml">
+      <configuration name="testMetropolis" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testVimeoCategoryApi - 2018.09.12 at 15h 28m 53s.xml">
+      <configuration name="testVimeoCategoryApi" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1002" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="1002" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32901832" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -271,6 +390,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -279,11 +399,9 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32901832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32901832" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -295,7 +413,24 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/MetropolisTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testMetropolis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DriverConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testMetropolis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
@@ -312,7 +447,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MetropolisTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testMetropolis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
@@ -329,7 +464,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MetropolisTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testMetropolis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
@@ -346,7 +481,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MetropolisTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testMetropolis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
@@ -363,7 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MetropolisTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testMetropolis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
@@ -409,34 +544,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="411">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DriverConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <caret column="37" lean-forward="true" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApiTests/testVimeoCategoryApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MetropolisTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testMetropolis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

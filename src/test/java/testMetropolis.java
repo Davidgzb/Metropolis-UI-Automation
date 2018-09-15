@@ -2,7 +2,7 @@ import Pages.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class MetropolisTest extends DriverConfiguration {
+public class testMetropolis extends DriverConfiguration {
 
 
     @Test
