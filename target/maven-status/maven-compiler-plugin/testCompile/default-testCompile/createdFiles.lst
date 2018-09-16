@@ -1,0 +1,8 @@
+UITests/TestMetropolis.class
+UITests/Pages/PageObject.class
+UITests/Pages/HomePage.class
+UITests/DriverConfiguration.class
+UITests/Pages/RegistrationPage.class
+UITests/Pages/ProductDetailPage.class
+UITests/Pages/SearchResultPage.class
+ApiTests/TestVimeoCategoryApi.class

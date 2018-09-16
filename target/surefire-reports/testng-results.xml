@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="11121" started-at="2018-09-16T07:58:15Z" finished-at="2018-09-16T07:58:26Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="11121" started-at="2018-09-16T07:58:15Z" finished-at="2018-09-16T07:58:26Z">
+      <class name="ApiTests.TestVimeoCategoryApi">
+        <test-method status="PASS" signature="testJsonStructure()[pri:0, instance:ApiTests.TestVimeoCategoryApi@47a5b70d]" name="testJsonStructure" duration-ms="2586" started-at="2018-09-16T07:58:22Z" finished-at="2018-09-16T07:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJsonStructure -->
+        <test-method status="PASS" signature="testLogInValue()[pri:0, instance:ApiTests.TestVimeoCategoryApi@47a5b70d]" name="testLogInValue" duration-ms="1412" started-at="2018-09-16T07:58:25Z" finished-at="2018-09-16T07:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInValue -->
+      </class> <!-- ApiTests.TestVimeoCategoryApi -->
+      <class name="UITests.TestMetropolis">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UITests.TestMetropolis@1506f20f]" name="setUp" is-config="true" duration-ms="2563" started-at="2018-09-16T07:58:12Z" finished-at="2018-09-16T07:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AssertItemInCart()[pri:0, instance:UITests.TestMetropolis@1506f20f]" name="AssertItemInCart" duration-ms="6992" started-at="2018-09-16T07:58:15Z" finished-at="2018-09-16T07:58:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertItemInCart -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:UITests.TestMetropolis@1506f20f]" name="cleanUp" is-config="true" duration-ms="9" started-at="2018-09-16T07:58:26Z" finished-at="2018-09-16T07:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:UITests.TestMetropolis@1506f20f]" name="closeDriver" is-config="true" duration-ms="595" started-at="2018-09-16T07:58:26Z" finished-at="2018-09-16T07:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- UITests.TestMetropolis -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
